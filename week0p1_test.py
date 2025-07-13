@@ -10,3 +10,4 @@ testdata =[
 @pytest.mark.parametrize("case, expected", testdata)
 def test_ex2(case, expected):
 	assert dose(case) == expected
+
